@@ -28,7 +28,7 @@ if __name__ == "__main__":
     conts = get_file_contents()
     if not conts: exit(IO_ERROR)
 
-		print(conts)
+    print(conts)
 EOF
 
 echo "Setup complete: folder './$PADDED_DATE' created with input.txt and main.py"
